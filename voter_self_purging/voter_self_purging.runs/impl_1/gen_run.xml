@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1680552016">
+  <File Type="ROUTE-PWR" Name="switch_voter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="switch_voter.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="switch_voter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="switch_voter_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="switch_voter.msk"/>
+  <File Type="ROUTE-CLK" Name="switch_voter_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="switch_voter.vdi"/>
+  <File Type="BG-BIT" Name="switch_voter.bit"/>
+  <File Type="BG-DRC" Name="switch_voter.drc"/>
+  <File Type="BG-BGN" Name="switch_voter.bgn"/>
+  <File Type="BG-BIN" Name="switch_voter.bin"/>
+  <File Type="BITSTR-RBT" Name="switch_voter.rbt"/>
+  <File Type="BITSTR-NKY" Name="switch_voter.nky"/>
+  <File Type="BITSTR-BMM" Name="switch_voter_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="switch_voter_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="switch_voter.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="switch_voter.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="switch_voter.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="switch_voter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="switch_voter.hwdef"/>
+  <File Type="PLACE-IO" Name="switch_voter_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="switch_voter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="switch_voter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="switch_voter_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="switch_voter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="switch_voter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="switch_voter_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="switch_voter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="switch_voter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="switch_voter_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="switch_voter_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="switch_voter_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="switch_voter_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="switch_voter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="switch_voter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="switch_voter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="switch_voter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="switch_voter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="switch_voter_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="switch_voter_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="switch_voter_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="switch_voter_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="switch_voter_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="switch_voter_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="switch_voter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="switch_voter_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="switch_voter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="switch_voter_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="switch_voter_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="switch_voter.pdi"/>
+  <File Type="RCFI_FILE" Name="switch_voter.rcfi"/>
+  <File Type="CFI_FILE" Name="switch_voter.cfi"/>
+  <File Type="RNPI_FILE" Name="switch_voter.rnpi"/>
+  <File Type="NPI_FILE" Name="switch_voter.npi"/>
+  <File Type="RBD_FILE" Name="switch_voter.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/utils_pkg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/adder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/voter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="switch_voter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraint_clk.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

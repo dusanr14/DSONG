@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="adder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="adder_tb" />
+            <top_module name="utils_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="80130fs"></ZoomStartTime>
+      <ZoomEndTime time="112923fs"></ZoomEndTime>
+      <Cursor1Time time="96158fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/adder_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/input_array" type="array">
+      <obj_property name="ElementShortName">input_array[0:3][6:0]</obj_property>
+      <obj_property name="ObjectShortName">input_array[0:3][6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/sum_array" type="array">
+      <obj_property name="ElementShortName">sum_array[0:3][6:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_array[0:3][6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/voter_i" type="array">
+      <obj_property name="ElementShortName">voter_i[27:0]</obj_property>
+      <obj_property name="ObjectShortName">voter_i[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/voter_i_s" type="array">
+      <obj_property name="ElementShortName">voter_i_s[27:0]</obj_property>
+      <obj_property name="ObjectShortName">voter_i_s[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/voter_o" type="array">
+      <obj_property name="ElementShortName">voter_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">voter_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/n_next" type="array">
+      <obj_property name="ElementShortName">n_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">n_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/n_reg" type="array">
+      <obj_property name="ElementShortName">n_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">n_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/n_dev_2" type="array">
+      <obj_property name="ElementShortName">n_dev_2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">n_dev_2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_tb/uut/ff_reg" type="array">
+      <obj_property name="ElementShortName">ff_reg[0:6]</obj_property>
+      <obj_property name="ObjectShortName">ff_reg[0:6]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

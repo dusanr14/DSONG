@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"fir_tb_func_synth.vhd" \
+"../../../../../fir_filtar.srcs/sources_1/new/util_pkg.vhd" \
+"../../../../../fir_filtar.srcs/sources_1/new/txt_util.vhd" \
+"../../../../../fir_filtar.srcs/sim_1/new/fir_tb.vhd" \
+
+# Do not sort compile order
+nosort
