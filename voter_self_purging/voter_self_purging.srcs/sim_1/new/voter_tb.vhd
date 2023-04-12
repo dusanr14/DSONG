@@ -8,7 +8,7 @@ architecture Behavioral of voter_tb is
     -- Import the component declaration for the module being tested
     component voter is
         generic (
-            REDUNDANCY : integer := 3;
+            REDUNDANCY : integer := 5;
             WIDTH : integer := 4
         );
         port (
@@ -23,14 +23,14 @@ architecture Behavioral of voter_tb is
     constant CLK_PERIOD : time := 20 ns;
     signal clk : std_logic := '0';
     signal rst : std_logic := '0';
-    signal voter_in : std_logic_vector((3*4)-1 downto 0) := (others => '0');
+    signal voter_in : std_logic_vector((5*4)-1 downto 0) := (others => '0');
     signal voter_out : std_logic_vector(4-1 downto 0);
 
 begin
     -- Instantiate the module being tested
     uut: voter
     generic map (
-        REDUNDANCY => 3,
+        REDUNDANCY => 5,
         WIDTH => 4
     )
     port map (
@@ -57,16 +57,39 @@ end process;
         wait for CLK_PERIOD;
         rst <= '0';
         wait for CLK_PERIOD;
-
+        wait for CLK_PERIOD;
+        wait for CLK_PERIOD;
         -- Send inputs to the module and wait for outputs
-        voter_in <= "1100" & -- Input 1
+        voter_in <= "1110" & -- Input 1
                     "1100" & -- Input 2
+                    "1100" & -- Input 3
+                    "1100" & -- Input 4
                     "1100";  -- Input 3
         wait for CLK_PERIOD;
 
+        voter_in <= "0111" & -- Input 1
+                    "1111" & -- Input 2
+                    "1111" & -- Input 3
+                    "1111" & -- Input 4
+                    "1111";  -- Input 3
+        wait for CLK_PERIOD;
+        voter_in <= "1100" & -- Input 1
+                    "1100" & -- Input 2
+                    "1110" & -- Input 3
+                    "1100" & -- Input 4
+                    "1100";  -- Input 3
+        wait for CLK_PERIOD;
         voter_in <= "0000" & -- Input 1
                     "0000" & -- Input 2
-                    "0000";  -- Input
+                    "0000" & -- Input 3
+                    "0001" & -- Input 4
+                    "0000";  -- Input 3
+        wait for CLK_PERIOD;
+        voter_in <= "1100" & -- Input 1
+                    "1100" & -- Input 2
+                    "1100" & -- Input 3
+                    "1110" & -- Input 4
+                    "1101";  -- Input 3
         wait for CLK_PERIOD;
     end process stim_proc;
 end Behavioral;

@@ -2,10 +2,10 @@
 2020.2
 Nov 18 2020
 09:47:47
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,1677539530,vhdl2008,,,,fir_tb,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/dsp.vhd,1677538085,vhdl,,,,dsp,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,1677539352,vhdl,C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,,,fir_filtar,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/mac.vhd,1680556655,vhdl,C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,,,mac,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/txt_util.vhd,1677538085,vhdl,C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,,,txt_util,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/util_pkg.vhd,1677538085,vhdl,C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd;C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,,,util_pkg,,,,,,,,
-C:/Users/Dusan/Desktop/MASTER/Otporni/otporni/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/utils_pkg.vhd,1678144146,vhdl,,,,utils_pkg,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,1677539530,vhdl2008,,,,fir_tb,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/dsp.vhd,1677538085,vhdl,,,,dsp,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,1677539352,vhdl,C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,,,fir_filtar,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/mac.vhd,1680556655,vhdl,C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,,,mac,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/txt_util.vhd,1677538085,vhdl,C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd,,,txt_util,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/util_pkg.vhd,1677538085,vhdl,C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sim_1/new/fir_tb.vhd;C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/fir_filtar.vhd,,,util_pkg,,,,,,,,
+C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.srcs/sources_1/new/utils_pkg.vhd,1678144146,vhdl,,,,utils_pkg,,,,,,,,

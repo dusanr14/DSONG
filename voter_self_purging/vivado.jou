@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 12 17:52:48 2023
+# Process ID: 8728
+# Current directory: C:/Users/Dusan/Desktop/DSONG/voter_self_purging
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4912 C:\Users\Dusan\Desktop\DSONG\voter_self_purging\voter_self_purging.xpr
+# Log file: C:/Users/Dusan/Desktop/DSONG/voter_self_purging/vivado.log
+# Journal file: C:/Users/Dusan/Desktop/DSONG/voter_self_purging\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dusan/Desktop/DSONG/voter_self_purging/voter_self_purging.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top voter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/voter_self_purging/voter_tb_behav.wcfg
+source voter_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+save_wave_config {C:/Users/Dusan/Desktop/DSONG/voter_self_purging/voter_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/voter_self_purging/voter_tb_behav.wcfg
+source adder_tb.tcl
+run all
+restart
+run all
+restart
+run 2 us
+save_wave_config {C:/Users/Dusan/Desktop/DSONG/voter_self_purging/voter_tb_behav.wcfg}
+close_sim
+close_project
+open_project C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_filtar.xpr
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_bez_toleranicje/force_signals_fir1.tcl
+close_sim

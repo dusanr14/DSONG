@@ -15,6 +15,6 @@ Compiling package ieee.math_real
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
 Compiling package xil_defaultlib.utils_pkg
-Compiling architecture behavioral of entity xil_defaultlib.switch_voter [\switch_voter(width=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.adder [adder_default]
 Compiling architecture behavioral of entity xil_defaultlib.adder_tb
 Built simulation snapshot adder_tb_behav

@@ -148,7 +148,11 @@ end process;
 process(clk)
 begin
 if(rising_edge(clk))then
+    if(rst = '1') then
+    voter_o <= (others=> '0');
+    else
     voter_o <= voter_o_temp;
+    end if;
 end if;
 end process; 
 

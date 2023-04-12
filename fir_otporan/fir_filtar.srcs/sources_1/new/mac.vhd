@@ -53,7 +53,7 @@ architecture Behavioral of mac is
     
     signal a_next,a_reg,b_next,b_reg      : std_logic_vector(WIDTH-1 downto 0);
     signal m_next,m_reg                   : std_logic_vector(2*WIDTH-1 downto 0);
-    signal u_reg_1, u_reg_2: STD_LOGIC_VECTOR (WIDTH-1 downto 0);
+    --signal u_reg_1, u_reg_2: STD_LOGIC_VECTOR (WIDTH-1 downto 0);
     signal sum_next,sum_reg : std_logic_vector(2*WIDTH-1 downto 0);
 begin
 --Sekvencijalno kolo
@@ -66,21 +66,21 @@ begin
         b_reg<=(others => '0');
         m_reg<=(others => '0');
         sum_reg<=(others => '0');
-        u_reg_1 <=(others => '0');
-        u_reg_2 <=(others => '0');
+        --u_reg_1 <=(others => '0');
+        --u_reg_2 <=(others => '0');
         else
         a_reg<= a_next;
         b_reg<= b_next;
         m_reg<= m_next;
         sum_reg<= sum_next;
-        u_reg_1 <= u_i;
-        u_reg_2 <= u_reg_1;
+        --u_reg_1 <= u_i;
+        --u_reg_2 <= u_reg_1;
         end if;
     end if;
 end process;
 --Kombinacioni kolo
 --Faza1
-u_o<=u_reg_2;
+u_o<=u_i;
 a_next<=u_i;
 b_next<=b_i;
 --Faza2

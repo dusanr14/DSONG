@@ -20,6 +20,6 @@ Compiling package ieee.math_real
 Compiling package xil_defaultlib.utils_pkg
 Compiling architecture behavioral of entity xil_defaultlib.mac [\mac(width=17)\]
 Compiling architecture behavioral of entity xil_defaultlib.switch_voter [\switch_voter(redundancy=5,width...]
-Compiling architecture behavioral of entity xil_defaultlib.fir_filtar [fir_filtar_default]
+Compiling architecture behavioral of entity xil_defaultlib.fir_filtar [\fir_filtar(fir_ord=20)\]
 Compiling architecture behavioral of entity xil_defaultlib.fir_tb
 Built simulation snapshot fir_tb_behav

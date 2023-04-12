@@ -34,7 +34,7 @@ use work.util_pkg.all;
 --use UNISIM.VComponents.all;
 
 entity fir_filtar is
-    generic(fir_ord : natural := 20;
+    generic(fir_ord : natural := 5;
         WIDTH : natural := 17;
         FIXED_POINT_POSITION : natural := 1;
         REDUNDANCY: integer := 5);
@@ -88,6 +88,11 @@ std_logic_vector(WIDTH-1 downto 0);
  signal data_i : STD_LOGIC_VECTOR (WIDTH-1 downto 0);
  signal data_o : STD_LOGIC_VECTOR (WIDTH-1 downto 0);
  signal axi_tready_input, axi_tvalid_output: STD_LOGIC;
+ 
+ attribute dont_touch :string;
+ attribute dont_touch of mac_inter: signal is "true";
+ attribute dont_touch of voter_o_inter : signal is "true";
+ 
  begin
  --proces koji modeluje sinkroni upis u memoriju b_s
  process(clk_i)
@@ -113,7 +118,7 @@ std_logic_vector(WIDTH-1 downto 0);
          sec_o=>mac_inter(0)((j+1)*2*WIDTH -1 downto j*2*WIDTH),
          u_o=>u_inter(0)((j+1)*WIDTH -1 downto j*WIDTH));
  end generate;
- asd_voter:
+first_voter:
     switch_voter
     generic map(WIDTH=>2*WIDTH,
                REDUNDANCY => REDUNDANCY)

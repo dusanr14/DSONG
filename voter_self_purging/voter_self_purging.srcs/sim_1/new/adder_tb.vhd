@@ -36,7 +36,7 @@ entity adder_tb is
 end adder_tb;
 
 architecture Behavioral of adder_tb is
-component switch_voter is
+component adder is
     generic(REDUNDANCY: integer := 7;
             WIDTH: integer :=4); 
     Port ( clk: in std_logic;
@@ -52,7 +52,7 @@ end component;
    constant CLK_PERIOD : time := 10 ns;
    
 begin
-     uut: switch_voter
+     uut: adder
     generic map (
         REDUNDANCY => 7,
         WIDTH => 4
