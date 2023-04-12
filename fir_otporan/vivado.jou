@@ -26,3 +26,50 @@ source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
 restart
 source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
 close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+run all
+restart
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
