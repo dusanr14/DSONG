@@ -11,3 +11,14 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_filtar.xpr
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg
+source fir_tb.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+save_wave_config {C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg}
+close_sim
