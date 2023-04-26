@@ -8,19 +8,20 @@
             <top_module name="fir_tb" />
             <top_module name="txt_util" />
             <top_module name="util_pkg" />
+            <top_module name="utils_pkg" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="456835943fs"></ZoomStartTime>
-      <ZoomEndTime time="461237789fs"></ZoomEndTime>
-      <Cursor1Time time="316470000fs"></Cursor1Time>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="300000000fs"></ZoomEndTime>
+      <Cursor1Time time="300000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
       <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="3" />
+   <WVObjectSize size="10" />
    <wvobject fp_name="/fir_tb/clk_i_s" type="logic">
       <obj_property name="ElementShortName">clk_i_s</obj_property>
       <obj_property name="ObjectShortName">clk_i_s</obj_property>
@@ -49,11 +50,38 @@
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">16</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
-      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
-      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
-      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogYRangeMin">0.0698009</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.139059</obj_property>
       <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
       <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
       <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/\first_section_redundancy(2)\/first_section/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/\first_section_redundancy(0)\/first_section/sec_o" type="array">
+      <obj_property name="ElementShortName">sec_o[33:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_o[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/\first_section_redundancy(1)\/first_section/sec_o" type="array">
+      <obj_property name="ElementShortName">sec_o[33:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_o[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/\first_section_redundancy(2)\/first_section/sec_o" type="array">
+      <obj_property name="ElementShortName">sec_o[33:0]</obj_property>
+      <obj_property name="ObjectShortName">sec_o[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/first_voter/voter_o" type="array">
+      <obj_property name="ElementShortName">voter_o[33:0]</obj_property>
+      <obj_property name="ObjectShortName">voter_o[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/first_voter/input_array" type="array">
+      <obj_property name="ElementShortName">input_array[0:33][2:0]</obj_property>
+      <obj_property name="ObjectShortName">input_array[0:33][2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_tb/uut_fir_filter/first_voter/ff_reg" type="array">
+      <obj_property name="ElementShortName">ff_reg[0:2]</obj_property>
+      <obj_property name="ObjectShortName">ff_reg[0:2]</obj_property>
    </wvobject>
 </wave_config>

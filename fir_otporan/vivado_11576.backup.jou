@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 26 21:20:31 2023
+# Process ID: 11576
+# Current directory: C:/Users/Dusan/Desktop/DSONG/fir_otporan
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12076 C:\Users\Dusan\Desktop\DSONG\fir_otporan\fir_filtar.xpr
+# Log file: C:/Users/Dusan/Desktop/DSONG/fir_otporan/vivado.log
+# Journal file: C:/Users/Dusan/Desktop/DSONG/fir_otporan\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_filtar.xpr
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+save_wave_config {C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg
+source fir_tb.tcl
+run all
+run all
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+restart
+source C:/Users/Dusan/Desktop/DSONG/fir_otporan/force_signals.tcl
+save_wave_config {C:/Users/Dusan/Desktop/DSONG/fir_otporan/fir_tb_behav.wcfg}
+close_sim
+launch_simulation
